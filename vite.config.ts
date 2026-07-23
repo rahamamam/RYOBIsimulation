@@ -17,7 +17,7 @@ function figmaAssetResolver() {
 }
 
 export default defineConfig({
-  base: '/RYOBIsimulationq/', // must match your repo name exactly, with slashes
+  base: '/RYOBIsimulation/', // must match your repo name exactly, with slashes
   plugins: [
     figmaAssetResolver(),
     react(),
